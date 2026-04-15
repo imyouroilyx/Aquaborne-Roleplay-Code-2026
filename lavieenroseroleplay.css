@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+.lavieenrose-container { position:relative; width:100%; max-width:1100px; margin:10px auto; padding:40px 0; font-family:'Google Sans',sans-serif; overflow:visible; box-sizing:border-box; margin-bottom:90px; }
+.lavieenrose-glow { position:absolute; top:-5%; bottom:-5%; left:-10%; right:-10%; filter:blur(40px); z-index:0; pointer-events:none; }
+.lavieenrose-circle { position:absolute; top:22%; bottom:22%; left:-2%; right:-2%; border:1px solid rgba(255,255,255,0.35); border-radius:50%; z-index:0; pointer-events:none; }
+.lavieenrose-circle-1 { transform:rotate(6deg); }
+.lavieenrose-circle-2 { transform:rotate(-6deg); }
+.lavieenrose-wrapper { position:relative; z-index:1; width:85%; margin:0 auto; }
+.lavieenrose-head-img { position:relative; width:100%; padding-bottom:56.25%; box-shadow:0 10px 30px rgba(0,0,0,0.3); border:1px solid #fff; }
+.lavieenrose-num { position:absolute; top:30px; left:40px; color:#fff; font-size:24px; text-shadow:0 2px 4px rgba(0,0,0,0.5); font-weight:400; }
+.lavieenrose-title-box { position:absolute; bottom:30px; left:40px; color:#fff; text-shadow:0 2px 4px rgba(0,0,0,0.5); }
+.lavieenrose-title-main { font-size:32px; font-weight:700; letter-spacing:1px; line-height:1.2; }
+.lavieenrose-title-sub { font-size:16px; letter-spacing:0.5px; font-weight:400; }
+.lavieenrose-body-box { position:relative; width:100%; margin-top:20px; margin-bottom:120px; padding:50px 50px 150px 50px; box-sizing:border-box; box-shadow:0 10px 30px rgba(0,0,0,0.3); }
+.lavieenrose-head-text { display:flex; justify-content:space-between; align-items:center; padding-bottom:20px; margin-bottom:30px; }
+.lavieenrose-name { font-size:52px; font-weight:600; color:#000; line-height:1; letter-spacing:-0.5px; }
+.lavieenrose-sym { font-size:32px; color:#000; line-height:1; display:flex; align-items:center; justify-content:center; }
+.lavieenrose-quote-box { position:relative; padding-left:55px; text-align:left; }
+.lavieenrose-quote-mark { position:absolute; left:-20px; top:-15px; font-size:100px; font-family:'Google Sans',sans-serif; font-weight:bold; color:#000; line-height:1; }
+.lavieenrose-text { font-size:15pt; color:#222; line-height:1.7; text-align:justify; }
+.lavieenrose-note { position:absolute; left:-40px; bottom:60px; color:#fff; padding:15px 90px 15px 30px; border-radius:40px; font-size:16px; display:flex; align-items:center; gap:12px; z-index:3; box-shadow:0 6px 15px rgba(0,0,0,0.15); white-space:nowrap; border:none; outline:none; background-clip:padding-box; }
+.lavieenrose-note-head { font-size:17px; font-weight:700; }
+.lavieenrose-note-desc { font-weight:400; }
+.lavieenrose-img-group { position:absolute; right:40px; bottom:-100px; display:flex; gap:20px; z-index:3; }
+.lavieenrose-img-sm { width:200px; height:130px; border:1px solid #fff; box-shadow:0 6px 15px rgba(0,0,0,0.15); box-sizing:border-box; }
+.lavieenrose-credit { text-align:center; font-size:11px; color:#666; font-family:'Google Sans',sans-serif; margin-top:30px; position:relative; z-index:4; }
